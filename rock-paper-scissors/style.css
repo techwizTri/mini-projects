@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+body {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: black;
+}
+h1 {
+  font-size: 60px;
+  color: white;
+  text-shadow: 0 0 10px #00b7ff, 0 0 20px #008cff, 0 0 80px #0077ff,
+    0 0 120px #0099ff;
+  line-height: 20%;
+  font-family: "Bungee";
+}
+h2 {
+  font-size: 80px;
+  color: white;
+  text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 80px #f50202,
+    0 0 120px #970000;
+  line-height: 30%;
+  font-style: italic;
+  font-family: "Lobster";
+}
+.gameButton {
+  cursor: pointer;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.restartGame {
+  position: relative;
+  color: white;
+  border: none;
+  font-family: "Shadows Into Light";
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.623);
+  text-shadow: 0 0 10px #00ff40, 0 0 20px #00ff40, 0 0 80px #66ff00,
+    0 0 120px #059900;
+  padding: 0.3rem 1.5rem;
+  border-radius: 50rem;
+  animation: bounce 0.6s infinite alternate;
+}
+.restartGame:active {
+  background-color: limegreen;
+}
+@keyframes bounce {
+  to {
+    transform: scale(1.2);
+  }
+}
+h3 {
+  color: white;
+  text-shadow: 0 0 10px #00ff40, 0 0 20px #00ff40, 0 0 80px #66ff00,
+    0 0 120px #059900;
+  font-size: 50px;
+  font-family: "Shadows Into Light";
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+.playerResult {
+  text-shadow: 0 0 10px #00b7ff, 0 0 20px #008cff, 0 0 80px #0077ff,
+    0 0 120px #0099ff;
+}
+.computerResult {
+  text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 80px #f50202,
+    0 0 120px #970000;
+}
+.vs {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 80px;
+}
+h4 {
+  font-size: 60px;
+  font-family: "Shadows Into Light";
+  color: white;
+  text-shadow: 0 0 10px #fcff32, 0 0 20px #dcff3d, 0 0 80px #e4fd00,
+    0 0 120px #fffc37;
+  margin-top: 10px;
+  line-height: 80%;
+  padding-right: 80px;
+  word-spacing: 240px;
+}
+p,
+a {
+  color: white;
+  text-align: right;
+  font-size: 10px;
+  padding-right: 40px;
+}

@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 5vh;
+  height: 80vh;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 700ms ease-in;
+}
+
+img.active {
+  width: 80vh;
+}

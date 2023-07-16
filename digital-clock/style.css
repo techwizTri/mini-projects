@@ -1,0 +1,16 @@
+@import url("https://fonts.cdnfonts.com/css/matrix");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+span {
+  font-size: 60px;
+  font-family: "Matrix", sans-serif;
+  color: rgb(0, 255, 13);
+  text-shadow: 0 0 15px rgb(122, 250, 63);
+  transition: all 0.5s cubic-bezier(0.6, 0.2, 0.1, 2);
+}
